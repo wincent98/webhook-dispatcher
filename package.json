@@ -1,0 +1,14 @@
+{
+  "name": "webhook-dispatcher",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "At-least-once webhook dispatcher with per-endpoint FIFO ordering, retries, rate limiting and graceful shutdown. Node.js standard library only.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "demo": "node index.js --demo",
+    "test": "node --test"
+  }
+}
