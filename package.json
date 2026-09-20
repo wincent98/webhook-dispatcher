@@ -1,0 +1,14 @@
+{
+  "name": "webhook-dispatcher",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "At-least-once webhook dispatcher with per-endpoint ordering, retry/DLQ, rate limiting and HMAC signing. Node.js standard library only.",
+  "scripts": {
+    "demo": "node index.js --demo",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
